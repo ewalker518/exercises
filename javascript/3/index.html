@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Iteration Random</title>
+  </head>
+  <body>
+    <h1 style="text-align:center; margin-top:20%;">
+      Open the console to see a list of random numbers!
+    </h1>
+    <script>
+   for (var i = 0; i <25; i++) {
+     var count = 0;
+     for (var j = 0; j < Math.floor(Math.random() * 10 + 1); j++) {
+       count++;
+     }
+     console.log(count);
+   }
+    </script>
+  </body>
+</html>
